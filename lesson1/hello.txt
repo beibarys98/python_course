@@ -1,0 +1,1 @@
+as salamu aleikum
