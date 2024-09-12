@@ -1,0 +1,3 @@
+git add . буферге сактау
+git commit -m "ozgeris engizu"
+git push -u original main
