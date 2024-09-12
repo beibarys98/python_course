@@ -1,0 +1,4 @@
+user_input = input('сан енгізіңіз: ')
+number = int( user input )
+user input2 = input('екінші сан енгізіңіз: ')
+number2 = int( user_input2)
