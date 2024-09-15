@@ -1,0 +1,41 @@
+1.
+for i in range(10):
+    input_year = input('')
+    zhyl = int(input_year)
+    if zhyl == 0:
+        break
+    elif zhyl%4 == 0:
+        print("kibise zhyl")
+    else:
+         print("kibise emes zhyl")
+
+2.
+for i in range(10):
+    print("san engiz:")
+    input_san = input("")
+    san = int(input_san)
+    if san == 0:
+        break
+    else:
+         print(san**2)
+   
+3.
+for i in range(10):
+    print("eki san engiz:")
+    input_san1 = input("")
+    san1 = int(input_san1)
+    input_san2 = input("")
+    san2 = int(input_san2)
+    if san1 == 0 and san2 == 0:
+        break
+    else:
+         print(san1**san2)
+   
+
+
+   
+
+
+    
+
+
