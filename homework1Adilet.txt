@@ -1,6 +1,4 @@
 1.
-
-
 for i in range(10):
     input_year = input('')
     zhyl = int(input_year)
@@ -12,7 +10,6 @@ for i in range(10):
          print("kibise emes zhyl")
 
 2.
-
 for i in range(10):
     print("san engiz:")
     input_san = input("")
@@ -23,7 +20,6 @@ for i in range(10):
          print(san**2)
    
 3.
-
 for i in range(10):
     print("eki san engiz:")
     input_san1 = input("")
