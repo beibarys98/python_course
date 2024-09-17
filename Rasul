@@ -1,0 +1,16 @@
+1)
+
+input_san = input('')
+input_san = int(input_san)
+print(input_san * 2)
+
+
+2)
+
+
+input_jyl = input('')
+input_jyl = int(input_jyl)
+if(input_jyl % 4 == 0 and input_jyl % 100 != 0) or (input_jyl % 400 == 0 ):
+    print(f"{input_jyl} высокосный год")
+else:
+    print(f"{input_jyl} не высокосный год")
