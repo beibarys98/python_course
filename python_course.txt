@@ -1,0 +1,18 @@
+git add . буферге сактау
+git commit -m "ozgeris engizu"
+git push -u original main
+
+//Обновление с Бейбаросом
+git rebase upstream/main
+git fetch upstream 
+git stash
+git rebase upstream/main
+
+
+Jyl = input ('Жылды енгізіңіз:')
+number = int (Jyl)
+kaldyk = (number % 4) 
+if kaldyk == 0:
+    print ('Сіз енгізген жыл КІБІСЕ жыл')
+else:
+    print ('Сіз енгізген жыл КІБІСЕ жыл емес')
